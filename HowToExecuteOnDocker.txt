@@ -1,0 +1,6 @@
+Steps:
+1. Write the docker file (touch Dockerfile)
+2. Ensure you have the requirments.txt file 
+3. Build the docker image (docker build -t <image_name> .)
+4. Run the app (docker -run 5000:5000 <image_name>) 
+[any port number will do, make sure to use the ip in the docker terminal]
